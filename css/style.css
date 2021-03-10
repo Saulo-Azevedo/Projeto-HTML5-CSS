@@ -1,0 +1,75 @@
+*{
+    font-family: 'RobotoMono', monospace;
+}
+body{
+    margin: 50px ;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+    background-color: #808080;
+    background: linear-gradient(to right,rgb(19,106,138),rgb(38,120,113));
+
+}
+h1{
+    font-size: 3em;
+}
+
+input{
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.imagem-galeria{
+    display: inline-block;
+    padding: 50px;
+}
+
+
+.output{
+    border: 1px solid #222;
+    padding: 30px 15px;
+    background-color: #0006;
+}
+.principal{
+    text-decoration: none;
+    text-decoration-skip: unset;
+    text-decoration-line: none;
+}
+
+/* menu*/
+/* link que ainda não foi visitado */
+a:link {
+    color: red;
+    text-decoration: none;
+    text-decoration-skip: unset;
+    text-decoration-line: none;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: rgba(16, 0, 243, 0.199);
+     text-decoration: none;
+     text-decoration-skip: unset;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: #000000;
+     text-decoration: none;
+     text-decoration-skip: unset;
+     text-decoration-line: none;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: rgb(245, 245, 250);
+     text-decoration: none;
+     text-decoration-skip: unset;
+     text-decoration-line: none;
+ }

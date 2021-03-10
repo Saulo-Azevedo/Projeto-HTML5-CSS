@@ -1,0 +1,17 @@
+{
+    "name": "unidade6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "dependencies": {
+        "http-server": "^0.11.1",
+        "qrious": "^4.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "qrcode": "http-server ./ -c-1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

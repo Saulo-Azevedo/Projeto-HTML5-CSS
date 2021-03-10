@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/2.6.6/vue.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/filtros.css">
+    <link  href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Filtros - Texto ao Contrário.</title>
+
+</head>
+<body>
+    <div id="filtro">
+        <div id="app">
+            <h1>Filtros  - Inversão de Texto</h1>
+            <input v-model="hello">
+            <div class="output">
+                <div class="">
+                Com filtro: {{hello|reverse}}
+                </div>
+                <div>
+                Sem filtro: {{hello}}
+                </div>
+            </div>            
+        </div>
+        <div>
+            <a href="index.html">
+                <h3>Voltar</h3>
+            </a>
+        </div>
+    </div>
+    <script>
+        Vue.filter('reverse', function (value) {
+            return value.split('').reverse().join('')
+            })
+        new Vue({
+            el:'#app',
+            data: {
+            hello: "Hello World"
+        }
+        })          
+    </script>
+</body>
+</html>
