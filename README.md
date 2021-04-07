@@ -1,7 +1,5 @@
 
 
-<h1>Atividades DAPI ciclo3</h1>
-<br>
 <p> Aplicações foram criadas com HTML5, CSS3 E Javascript </p>
 <br>
 <h2> Gerador de Código QR</h2>
